@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - "main"
-    paths: "Frontend/**"
   workflow_dispatch:
 
 permissions:
@@ -18,9 +17,6 @@ concurrency:
 
 jobs:
   publish:
-    defaults:
-      run:
-        working-directory: Frontend
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -41,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "Frontend/out"
+          path: "out"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
