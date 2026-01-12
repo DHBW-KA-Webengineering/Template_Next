@@ -9,7 +9,10 @@ This repository is a template with a working GitHub action for the build and Git
 
 After creating a repo with this template, deploy works automatically with each push to github pages. The template is deployed to [dhbw-ka-webengineering.github.io/Template_Next/](https://dhbw-ka-webengineering.github.io/Template_Next/)
 
-Because of the _Template_Next_ path in the URL, `Template_Next` is required in line 8 of the [package.json file](package.json). If you deploy the repo to a different URL (e. g. when you rename the repo), you will need to adapt or remove this part.
+### Todo:
+
+- Because of the _Template_Next_ path in the URL, `Template_Next` is required in line 8 of the [package.json file](package.json). If you deploy the repo to a different URL (e. g. when you choose a different name for your repo), you will need to adapt or remove this part.
+- Enable GitHub Pages in the Settings of your repo and set the source to "GitHub Actions"
 
 # Next
 
