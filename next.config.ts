@@ -9,8 +9,6 @@ declare global {
 
 const nextConfig: NextConfig = {
   basePath: process.env.BASE_PATH,
-  output: "export",
-  trailingSlash: true,
   reactStrictMode: true,
   images: { unoptimized: true },
 };
