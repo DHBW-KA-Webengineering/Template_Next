@@ -2,8 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dhbw-ka-webengineering.github.io/Template_Next/",
-  "scripts": {
+    "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "build:gh-pages": "BASE_PATH=/Template_Next next build",
