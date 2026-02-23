@@ -23,7 +23,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
           <li>
-            <Link href="/test/5">Or navigate to Page 5</Link>
+            <Link href="/test/67">Or navigate to Page 67</Link>
           </li>
         </ol>
 
